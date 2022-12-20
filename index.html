@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MPelagio - Profile</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/de86dc7743.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    </div>  
+  </div>
+    <div id="header">
+      <div id="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li class="close"><a href="#header">Home</a></li>
+            <li class="close"><a href="#about">About</a></li>
+            <li class="close"><a href="#services">Services</a></li>
+            <li class="close"><a href="#portfolio">Portfolio</a></li>
+            <li class="close"><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            Hi, I'm <span>Mark</span>.<br />
+            How can I help you?
+          </h1>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-------------aboutme---------->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img class="imagecsu" src="images/csu.jpg" alt="csu" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              A hardworking individual who always takes action with analysis,
+              scientific method and development. Gained previous experience as a
+              blue-collar worker in print media industry and added further
+              experience in the field of banking process. Intended in an
+              organization where constantly development in machine learning, web
+              development and javascript programming skills to make use of it in
+              digital world campaign. Always looking forward establishing myself
+              by adapting new technologies as well.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Page</span><br />Front-End Web Design</li>
+                <li>
+                  <span>Web Development</span><br />Debugging, Responsive
+                  Making, Implementing
+                </li>
+                <li>
+                  <span>Application Development</span><br />Mobile Application
+                </li>
+                <li>
+                  <span>DOTA 2 Support (POS4/POS5)</span><br />I didn't choose
+                  the support life, the support life chose me.
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2021-2022</span><br />Loans Specialist/Processor -
+                  Eastwest Rural Bank (TEMENOS Banking Platform User)
+                </li>
+                <li>
+                  <span>2021</span><br />Account Coordinator - E-Copy
+                  Corporation (SHARP Multifunction Machine Technical Salesman)
+                </li>
+                <li>
+                  <span>2019-2020</span><br />IT Support - Undergroundz Gaming
+                  Hub (Diskless Network Setup)
+                </li>
+                <li>
+                  <span>2019</span><br />Digital Subscriber Line Support Trainee
+                  - Philippine Long Distance Telephone Company
+                </li>
+                <li>
+                  <span>2012-2013</span><br />Service Technician (Trainee) -
+                  Heidelberg Philippines Inc.
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2014 - 2020</span><br />
+                  BS Computer Engineering - Catanduanes State University
+                </li>
+                <li>
+                  <span>2011-2013</span><br />Electromechanics Technology -
+                  Dualtech Training Center
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------services---------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-earth-americas"></i>
+            <h2>Web Design</h2>
+            <p>
+              Creation of websites and applications using web languages such as
+              HTML, CSS, and JavaScript that allow users to access and interact
+              with the site or app. When you visit your website, the design
+              elements you see were created by a front-end developer.
+            </p>
+            <a href="notavailable.html">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-compass-drafting"></i>
+            <h2>Web Development</h2>
+            <p>
+              Creating, building, and maintaining of websites. It includes
+              aspects such as web design, web publishing, web programming, and
+              database management. It is the creation of an application that
+              works over the internet i.e. websites.
+            </p>
+            <a href="notavailable.html">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-uncharted"></i>
+            <h2>App Design</h2>
+            <p>
+              The task of designing mobile applications. Even though mobile apps
+              have a wide variety of uses, what unifies them is the need for
+              optimal usability, accessibility, engagement, and overall user
+              experience. In short, addressing all the above concerns.
+            </p>
+            <a href="notavailable.html">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------portfolio---------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work1.jpg" alt="work1" />
+            <div class="layer">
+              <h3>Programming Skills</h3>
+              <p>
+                Software engineers are tasked with designing and creating
+                software programs and applications.
+              </p>
+              <a href="#"><i class="fa-solid fa-code"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work2.jpg" alt="work2" />
+            <div class="layer">
+              <h3>E-commerce Marketing</h3>
+              <p>
+                E-commerce advertising includes the methods through which you
+                actually promote your product.
+              </p>
+              <a href="#"><i class="fa-solid fa-code"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work3.jpg" alt="work3" />
+            <div class="layer">
+              <h3>Computer Networking</h3>
+              <p>
+                Responsible for installations and repairs of network systems.
+                Troubleshooting computer networks and maintenance.
+              </p>
+              <a href="#"><i class="fa-solid fa-code"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="notavailable.html" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-----------contact------------------>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact</h1>
+            <p><i class="fa-solid fa-envelope"></i>pelagio.s.mark@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+63912 235 8642</p>
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/mark.pelagio.963"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="https://join.skype.com/invite/WGz0XApVzon0"
+                target="_blank"
+                ><i class="fa-brands fa-skype"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/mark-pelagio-0208a1209"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.tiktok.com/@sebrodriguezbrizo?_t=8Xx7pgCOXEQ&_r=1"
+                target="_blank"
+                ><i class="fa-brands fa-tiktok"></i
+              ></a>
+            </div>
+            <a href="images/MSPelagio - CV.pdf" download class="btn btn2"
+              >Download Qualifications</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Name" required />
+              <input type="email" name="email" placeholder="Email" required />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your message"
+              ></textarea>
+              <button id="btn2" type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+            <div id="loader" class="loader"></div>
+          </div>
+        </div>
+      </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <div class="copyright">
+        <p>Copyright © MSPelagio. All rights reserved.</p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
