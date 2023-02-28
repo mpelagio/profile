@@ -208,6 +208,7 @@ nav ul li a:hover::after{
     border-right: 10px;
     border-radius: 10px;
     transition: background 0.3s, transform 0.3s;
+    text-align: center;
 
 }
 
