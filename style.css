@@ -522,7 +522,7 @@ form .btn2{
     nav ul .fa-solid{
         position: absolute;
         left: 78%; 
-        top: 9%;
+        top: 8%;
         cursor: pointer;
     }
 
@@ -559,6 +559,39 @@ form .btn2{
     #myBtn {
         display: none !important;
     }
+    
+    .about-col-2 p{
+    text-align: center;
+    }
+     
+    .services-list {
+    text-align: center;
+   }
+    
+   .sub-title {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+   }
+    
+    .contact-left p{
+    margin-left: -10%;
+    text-align: center
+    }
+
+    .social-icons {
+    text-align: center;
+    margin-left: 4%;
+    }
+    
+    .btn.btn2 {
+    display: inline-block;
+    background: #03ac13;
+    width: 275px;
+    margin-left: 8%;
+}
+
     
 }
 
