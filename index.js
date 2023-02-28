@@ -51,7 +51,7 @@
         document.getElementById('loader').style.display = "none";
         document.getElementById('btn2').disabled = false;
         document.getElementById('btn2').style.opacity = 1;
-        msg.innerHTML = "Message sent succesfully!"
+        msg.innerHTML = "Message sent succesfully..."
         setTimeout(function(){
           msg.innerHTML = ""
         }, 2000)
